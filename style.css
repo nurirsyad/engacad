@@ -8,13 +8,18 @@ a {
 	color: red;
 }
 
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 h1, h1, h3 {
 	margin: 0;
 }
 
 #container {
 	background-color: white;
-	width: 800px;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -45,8 +50,9 @@ h1, h1, h3 {
 }
 
 #main {
-	width: 600px;
+	width: 800px;
 	float: right;
+  color: black;
 }
 
 #footer {
